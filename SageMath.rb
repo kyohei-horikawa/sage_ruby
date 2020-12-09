@@ -60,7 +60,7 @@ class Sage
       o.puts @command
 
       begin
-        Timeout.timeout(2) do
+        Timeout.timeout(5) do
           loop do
             @res << i.gets
           end
